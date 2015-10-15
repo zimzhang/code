@@ -1,4 +1,4 @@
-
+/* img转base64图片编码 */
 function convertImgToBase64(url, callback, outputFormat){
     var canvas = document.createElement('CANVAS'),
         ctx = canvas.getContext('2d'),
