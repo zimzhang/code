@@ -9,7 +9,7 @@ function fnShow() {
                dir: 'auto',   
                lang: 'hi',   
                tag: 'testTag',   
-               icon: 'http://wx.shizhencaiyuan.com/mobile/themes/szy/images/_VIP.png',   
+               icon: 'xx.png',   
                body: time   
            });   
        }   
