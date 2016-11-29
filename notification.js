@@ -2,6 +2,7 @@
 function fnShow() {   
    var date = new Date();   
    var time = date.getHours() + ':' + date.getMinutes() + ':' + date.getSeconds();
+	
    //请求通知权限   
    Notification.requestPermission(function (perm) {   
        if (perm == 'granted') {   
