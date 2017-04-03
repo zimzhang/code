@@ -1,10 +1,13 @@
 		$('#search_input').on("keyup", function(event){
 			throttle(queryData, null, 500, this.value, 1000);
 		});
+		//查询数据
 		function queryData(text){
 			console.log("搜索：" + text);
-		}		
-        
+		}	
+
+
+        //节流方法
 		function throttle(fn,context,delay,text,mustApplyTime){
 			clearTimeout(fn.timer);
 			fn._cur = Date.now();  //记录当前时间
